@@ -2,6 +2,7 @@ package com.driver;
 
 import com.Customer.Customer;
 import com.Transaction.Transaction;
+import com.branch.Branch;
 
 import java.util.Date;
 
@@ -16,7 +17,7 @@ public class Driver {
         Date todaysDate = new Date();
         Transaction transObj1=new Transaction(123456,1200,todaysDate);
         System.out.println(transObj1);
-
-
+        Branch branchObj1 = new Branch(1,"Mumbai", 50000);
+        System.out.println(branchObj1);
     }
 }
