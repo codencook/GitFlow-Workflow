@@ -3,7 +3,7 @@ package com.Customer;
 /**
  * Created by Aniket on 7/27/2017.
  */
-public class Customer {
+public class Customer{
     int custAccNo;
     String custName;
     double custBalance;
@@ -47,4 +47,5 @@ public class Customer {
         sb.append('}');
         return sb.toString();
     }
+
 }
