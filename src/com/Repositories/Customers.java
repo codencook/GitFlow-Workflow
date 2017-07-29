@@ -13,7 +13,7 @@ public class Customers implements CustomerI {
     ArrayList<Customer> custList = new ArrayList<Customer>();
     @Override
     public void AddNewCustomer(Customer custObj) {
-
-
+        custList.add(custObj);
+        System.out.println(custList);
     }
 }
